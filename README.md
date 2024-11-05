@@ -8,7 +8,9 @@
   即可
 - **Pages** 部署：`Fork` 后 `连接GitHub` 一键部署即可
 
-![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button?url=https://github.com/possible318/cf-docker-hub)
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/possible318/cf-docker-hub)
+
 
 例如项目域名为：`hub.fxxk.com`；
 
