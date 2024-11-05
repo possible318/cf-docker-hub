@@ -4,12 +4,20 @@
 
 ## 部署方式
 
-- **Workers** 部署：复制 [_worker.js](https://github.com/cmliu/CF-Workers-docker.io/blob/main/_worker.js) 代码，`保存并部署`
-  即可
-- **Pages** 部署：`Fork` 后 `连接GitHub` 一键部署即可
+### Workers 部署
 
+1. 创建一个 Workers 项目
+2. 点击编辑代码
+3. 复制 [_worker.js](https://github.com/cmliu/CF-Workers-docker.io/blob/main/_worker.js) 代码，`保存并部署`
+4. 配置自定义域名
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/possible318/cf-docker-hub)
+### Pages 部署
+
+1. Fork 本项目
+2. 连接 GitHub，选择 Fork 的项目，一键部署
+3. 配置自定义域名
+
+[//]: # ([![Deploy to Cloudflare Workers]&#40;https://deploy.workers.cloudflare.com/button&#41;]&#40;https://deploy.workers.cloudflare.com/?url=https://github.com/possible318/cf-docker-hub&#41;)
 
 
 例如项目域名为：`hub.fxxk.com`；
